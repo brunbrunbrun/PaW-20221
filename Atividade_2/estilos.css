@@ -1,0 +1,64 @@
+/*
+    Bruno Belo Comachio
+    202011310043
+*/
+Header
+{
+    background-color: MediumSpringGreen;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px dashed;
+}
+
+.Classe_Principal
+{
+    background-color: RebeccaPurple;
+    font-family: 'Lucida Sans';
+}
+
+#id_1
+{
+    background-color: NavajoWhite;
+    padding: 1%;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+}
+
+#id_2
+{
+    background-color: Navy;
+    color: white;
+    border: 3px solid white;
+}
+
+#id_3
+{
+    background-color: #FF4500;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 40%;
+    border: 2px dashed #b6bbff;
+}
+
+#id_4
+{
+    background-color: rgb(100, 200, 220);
+    text-align: center;
+    border: 1px solid;
+}
+
+#id_5
+{
+    background-color: #f7577d;
+    text-align: center;
+    border: 5px solid pink;
+}
+
+body div a
+{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
