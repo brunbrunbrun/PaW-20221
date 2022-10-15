@@ -1,0 +1,92 @@
+<!--
+    Bruno Belo Comachio
+    202011310043
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade 3</title>
+        <link rel="stylesheet" href="estilo3.css">
+    </head>
+
+    <body>
+
+        <form id="formulario_dados_aluno" action="index.html" method="post">
+
+            <div class="Item_Formulario"><!-- inputs de texto -->
+                <label for="Nome_Aluno">Nome:</label>
+                <input type="text" id="Nome_Aluno" name="Nome_Aluno" placeholder="Insira o Nome">
+
+                <label for="RGA_Aluno">RGA:</label>
+                <input type="text" id="RGA_Aluno" name="RGA_Aluno" placeholder="Insira o RGA" required>
+            </div>
+
+            <div class="Item_Formulario"><!-- input de area de texto -->
+                <label for="Comentario">Comentario:</label>
+                <textarea id="Comentario" name="Comentario" cols="25" rows="3" placeholder="Insira seu comentario aqui"></textarea>
+            </div>
+
+            <div class="Item_Formulario"><!-- select com opções -->
+                <p>Curso:</p>
+                <select id="Curso" name="Curso">
+                    <option value="CC">Ciência da Computação</option>
+                    <option value="SI">Sistemas de Informação</option>
+                    <option value="EC">Engenharia da Computação</option>
+                </select>
+            </div>
+
+            <div class="Item_Formulario"><!-- radio botão -->
+                <p>Periodo:</p>
+
+                <input type="radio" id="Manhã" name="Periodo" value="Matutino">
+                <label for="Manhã">Manhã</label>
+
+                <input type="radio" id="Tarde" name="Periodo" value="Vespertino">
+                <label for="Tarde">Tarde</label>
+
+                <input type="radio" id="Noite" name="Periodo" value="Noturno">
+                <label for="Noite">Noite</label>
+            </div>
+
+            <br>
+
+            <div class="Item_Formulario">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" value="email" placeholder="email@domain.com">
+            </div>
+
+            <div class="Item_Formulario">
+                <p>Genero:</p>
+                <select id="Genero" name="Genero">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outre</option>
+                </select>
+            </div>
+
+            <div class="Item_Formulario">
+                <label for="Nascimento">Aniversario:</label>
+                <input type="date" id="Nascimento" name="Nascimento">
+            </div>
+
+            <div class="Item_Formulario">
+                <label for="Cor_Bonita">Escolha a melhor cor:</label>
+                <input type="color" id="Cor_Bonita" name="Cor_Bonita">
+            </div>
+
+            <br>
+
+            <div class="Item_Formulario"><!-- checkbox -->
+                <input type="checkbox" id="Certo" name="Certo" value="Certo">
+                <label for="Certo">Todas as informações estão corretas</label>
+            </div>
+
+            <div><!-- botao de envio -->
+                <button type="submit" name="envio">Enviar</button>
+            </div>
+
+        </form>
+
+    </body>
+</html>

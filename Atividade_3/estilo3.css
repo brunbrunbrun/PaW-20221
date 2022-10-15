@@ -1,0 +1,44 @@
+/*
+    Bruno Belo Comachio
+    202011310043
+*/
+
+body
+{
+    background-image: url("70486253-stock-photo-happy-cat-blue-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form
+{
+    background-image: url("1151115549-170667a.jpg");
+    background-repeat: no-repeat;
+}
+
+button
+{
+    background-color: lightblue;
+}
+
+button:hover
+{
+    background-color: black;
+    color: red;
+}
+
+p::first-letter
+{
+    font-size: 30px;
+}
+
+input::placeholder
+{
+    color: red;
+}
+
+input:required
+{
+    border: 1px dashed black;
+}
