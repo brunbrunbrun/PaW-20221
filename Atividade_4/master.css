@@ -1,0 +1,36 @@
+/*
+    Bruno Belo Comachio
+    202011310043
+*/
+img
+{
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    z-index: 5;
+}
+
+h1
+{
+        position: absolute;
+        z-index: 10;
+        color: green;
+        text-shadow: 2px 2px #ff0000, -2px -2px  #ffff00;
+        margin-left: 30px;
+}
+
+figcaption
+{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    max-width: 1280px;
+    max-height: 720px;
+    font-size: 15px;
+    display: block;
+
+    position: absolute;
+    margin-top: -80px;
+    text-indent: 50px;
+    z-index: 50;
+}
