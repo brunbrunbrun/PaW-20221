@@ -2,3 +2,92 @@
     Bruno Belo Comachio
     202011310043
 */
+div{
+    border: 1px black;
+    }
+    .container{
+        display: grid;
+    }
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+.rga{
+    grid-column: 1;
+}
+
+.nome_aluno {
+    grid-column: 2;
+}
+
+.disciplina_matriculado{
+    grid-column: 3;
+}
+
+.nota{
+    grid-column: 4;
+}
+
+.situacao{
+    grid-column: 5;
+}
+
+.container{
+    background-color: purple;
+    border: 2px solid blue;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    gap: 2px;
+}
+
+.container div{
+    background-color: green;
+    padding: 20px;
+    border: 1px lime;
+}
+
+div .rga {
+    background-color: yellow;
+ }
+
+ div .nome_aluno{
+     background-color: white;
+ }
+
+ div .disciplina_matriculado {
+    background-color: pink;
+ }
+
+ div .nota {
+    background-color: red;
+ }
+
+ div .situacao {
+    background-color: grey;
+ }
+
+
+ div .rgaID{
+    background-color: orange;
+ }
+
+ div .nome_alunoID{
+    background-color: orange;
+ }
+
+ div .disciplina_matriculadoID{
+    background-color: orange;
+ }
+
+ div .notaID{
+    background-color: orange;
+ }
+
+ div .situacaoID{
+    background-color: orange;
+ }
